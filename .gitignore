@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Node.js (si usas npm en el futuro)
+node_modules/
+
+# Build output (si llegas a tenerlo)
+dist/
