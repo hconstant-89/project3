@@ -164,7 +164,7 @@
 
 .events {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
   gap: 120px;
   padding: 100px 80px 120px;
@@ -235,12 +235,8 @@
   width: 20px;
 }
 
-.events__more {
-  font-size: 16px;
-  line-height: 20px;
+.nav__link_type_more {
   color: #2f80ed;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .person {
@@ -250,7 +246,7 @@
 .person__caption {
   margin-top: 8px;
   font-size: 14px;
-  color: black;
+  color: #000000;
 }
 
 .person__image {
@@ -261,14 +257,17 @@
 
 .person__image_size_l {
   width: 130px;
+  height: 130px;
 }
 
 .person__image_size_m {
   width: 95px;
+  height: 95px;
 }
 
 .person__image_size_s {
   width: 75px;
+  height: 75px;
 }
 
 .person_name_feynman {
