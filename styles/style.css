@@ -362,17 +362,20 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 60px;
+  gap: 80px;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
-}
-
-.footer__column-group {
-  display: flex;
-  gap: 80px;
 }
 
 .footer__column-heading {
@@ -413,8 +416,6 @@
 .footer__copyright {
   font-size: 14px;
   text-align: start;
-  margin: 0;
+  margin-top: 100px;
   color: #ffffff;
-  text-align: start;
-  padding: 80px;
 }
